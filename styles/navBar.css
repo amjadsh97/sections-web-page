@@ -10,7 +10,7 @@ body {
 
 .header {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
     margin-left: 30px;
     margin-right: 30px;
     display: flex;
@@ -18,7 +18,7 @@ body {
 }
 
 .header__logo {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
     font-size: 26px;
     margin: 0;
@@ -38,15 +38,14 @@ body {
     margin-right: 7px;
 }
 
-.header__links {
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-
-.nav-bar__header__links {
+.nav-bar__nav {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
@@ -54,13 +53,12 @@ body {
     align-items: center;
 }
 
-
-.nav-bar-header__links:last-child li {
-    margin-left: 2px;
-    margin-right: 2px;
+.nav a > i {
+    color: #B9B9B9;
 }
 
-.nav-bar__header__links li:last-child {
+
+.nav-bar__nav li:last-child {
     background-color: #f3f3f3;
     padding-left: 30px;
     padding-right: 30px;
@@ -73,16 +71,20 @@ body {
     margin-left: 12px;
 }
 
-.nav-bar__header__links li {
+.nav-bar__nav li {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
 }
 
-.header__links a {
+.nav a {
     text-decoration: none;
     display: inline-block;
     color: #000000;
+}
+
+.nav-bar-nav li > i {
+    color: #B9B9B9;
 }
 
 
