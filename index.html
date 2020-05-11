@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sections</title>
     <link rel="stylesheet" type="text/css" href="styles/navBar.css"/>
     <link rel="stylesheet" type="text/css" href="styles/hero.css"/>
@@ -21,7 +22,7 @@
     </h1>
 
     <nav class="nav">
-        <ul class="nav-bar__nav">
+        <ul class="nav__menu">
             <li><a href="#">second link
                 <i class="fas fa-chevron-circle-down"></i>
             </a></li>
@@ -101,123 +102,109 @@
                 </li>
 
             </ul>
-
-            <ul class="list-tabs">
-                <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 1</a></li>
-                <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 2</a></li>
-                <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 3</a></li>
-            </ul>
-
-            <div class="card-wrapper">
-                <article class="card">
-                    <img src="images/image5.jpg" alt="" class="card-img">
-                    <div class="card__content">
-                        <span class="card-tag">telescope 101</span>
-                        <h3 class="card__title">pictures in The sky</h3>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="images/image5.jpg" alt="" class="card-img">
-                    <div class="card__content">
-                        <span class="card-tag">telescope 101</span>
-                        <h3 class="card__title">pictures in The sky</h3>
-                    </div>
-                </article>
-                <article class="card">
-                    <img src="images/image5.jpg" alt="" class="card-img">
-                    <div class="card__content">
-                        <span class="card-tag">telescope 101</span>
-                        <h3 class="card__title">pictures in The sky</h3>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <img src="images/image5.jpg" alt="" class="card-img">
-                    <div class="card__content">
-                        <span class="card-tag">telescope 101</span>
-                        <h3 class="card__title">pictures in The sky</h3>
-                    </div>
-                </article>
-
-            </div>
-
-
-            <section class="feedback">
-                <div class="wrapper">
-                    <div class="card-feedback-wrapper">
-                        <article class="feedback-card card">
-                            <span class="pic-wrapper">
-                                 <svg height='50px' width='50px' fill="#B9B9B9"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      version="1.1" x="0px" y="0px"
-                                      viewBox="0 0 100 100"
-                                      style="enable-background:new 0 0 100 100;"
-                                      xml:space="preserve"><g><path d="M47.1,7C37.7,7,30,14.7,30,24.1v5.7C30,39.3,37.7,47,47.1,47h5.7C62.3,47,70,39.3,70,29.9v-5.7C70,14.7,62.3,7,52.9,7H47.1   z M62,24.1v5.7c0,5-4.1,9.1-9.1,9.1h-5.7c-5,0-9.1-4.1-9.1-9.1v-5.7c0-5,4.1-9.1,9.1-9.1h5.7C57.9,15,62,19.1,62,24.1z"></path><path
-                                         d="M9,85.6c0,2.2,1.8,4,4,4s4-1.8,4-4v-4.8C17,69.3,26.1,60,37.4,60h25.2C73.9,60,83,69.3,83,80.7v4.8c0,2.2,1.8,4,4,4   s4-1.8,4-4v-4.8C91,64.9,78.3,52,62.6,52H37.4C21.7,52,9,64.9,9,80.7V85.6z"></path></g></svg>
-                            </span>
-                            <p class="feedback-card__desc">Once the printer ink runs dry it has to be replaced with
-                                another inkjet cartridge. There are many reputed companies like Canon, Epson, Dell, and
-                                Lexmark that provide the necessary cartridges to replace the empty cartridges. Replacing
-                                inkjet</p>
-                            <hr class="border">
-                            <h3 class="feedback-card__author">hunter valdez</h3>
-                            <span class="feedback-card__author-position">UI/UX designer</span>
-                        </article>
-
-                        <article class="feedback-card card">
-                            <span class="pic-wrapper">
-                                 <svg height='50px' width='50px' fill="#B9B9B9"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      version="1.1" x="0px" y="0px"
-                                      viewBox="0 0 100 100"
-                                      style="enable-background:new 0 0 100 100;"
-                                      xml:space="preserve"><g><path d="M47.1,7C37.7,7,30,14.7,30,24.1v5.7C30,39.3,37.7,47,47.1,47h5.7C62.3,47,70,39.3,70,29.9v-5.7C70,14.7,62.3,7,52.9,7H47.1   z M62,24.1v5.7c0,5-4.1,9.1-9.1,9.1h-5.7c-5,0-9.1-4.1-9.1-9.1v-5.7c0-5,4.1-9.1,9.1-9.1h5.7C57.9,15,62,19.1,62,24.1z"></path><path
-                                         d="M9,85.6c0,2.2,1.8,4,4,4s4-1.8,4-4v-4.8C17,69.3,26.1,60,37.4,60h25.2C73.9,60,83,69.3,83,80.7v4.8c0,2.2,1.8,4,4,4   s4-1.8,4-4v-4.8C91,64.9,78.3,52,62.6,52H37.4C21.7,52,9,64.9,9,80.7V85.6z"></path></g></svg>
-                            </span>
-                            <p class="feedback-card__desc">It is truly a magnificent view even
-                                to the naked eye. If the night is clear, you can see amazing detail of the
-                                lunar surface just star gazing on in your back yard.</p>
-                            <hr class="border">
-                            <h3 class="feedback-card__author">Allie Graham</h3>
-                            <span class="feedback-card__author-position">UI/UX designer</span>
-                        </article>
-
-                        <article class="feedback-card card">
-                            <span class="pic-wrapper">
-                                 <svg height='50px' width='50px' fill="#B9B9B9"
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      version="1.1" x="0px" y="0px"
-                                      viewBox="0 0 100 100"
-                                      style="enable-background:new 0 0 100 100;"
-                                      xml:space="preserve"><g><path d="M47.1,7C37.7,7,30,14.7,30,24.1v5.7C30,39.3,37.7,47,47.1,47h5.7C62.3,47,70,39.3,70,29.9v-5.7C70,14.7,62.3,7,52.9,7H47.1   z M62,24.1v5.7c0,5-4.1,9.1-9.1,9.1h-5.7c-5,0-9.1-4.1-9.1-9.1v-5.7c0-5,4.1-9.1,9.1-9.1h5.7C57.9,15,62,19.1,62,24.1z"></path><path
-                                         d="M9,85.6c0,2.2,1.8,4,4,4s4-1.8,4-4v-4.8C17,69.3,26.1,60,37.4,60h25.2C73.9,60,83,69.3,83,80.7v4.8c0,2.2,1.8,4,4,4   s4-1.8,4-4v-4.8C91,64.9,78.3,52,62.6,52H37.4C21.7,52,9,64.9,9,80.7V85.6z"></path></g></svg>
-                            </span>
-                            <p class="feedback-card__desc">There is a moment in the life of any aspiring astronomer that
-                                it is time to buy that first telescope. It’s exciting to think about setting up your own
-                                viewing station whether
-                                that is on the deck of your home or having.</p>
-                            <hr class="border">
-                            <h3 class="feedback-card__author">tyler arnold</h3>
-                            <span class="feedback-card__author-position">UI/UX designer</span>
-                        </article>
-
-                    </div>
-
-                    <div class="tabed-sections">
-                        <span class="tabed-sections__item"></span>
-                        <span class="tabed-sections__item"></span>
-                        <span class="tabed-sections__item"></span>
-                        <span class="tabed-sections__item"></span>
-                        <span class="tabed-sections__item"></span>
-                    </div>
-                </div>
-            </section>
-
-
         </div>
+
+        <section class="section-tabs">
+            <div class="wrapper">
+                <ul class="list-tabs">
+                    <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 1</a></li>
+                    <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 2</a></li>
+                    <li class="list-tabs__item"><a href="#" class="list-tabs__link">tab 3</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-cards">
+            <div class="wrapper">
+                <div class="card-wrapper">
+                    <article class="card">
+                        <img src="images/image5.jpg" alt="" class="card-img">
+                        <div class="card__content">
+                            <span class="card-tag">telescope 101</span>
+                            <h3 class="card__title">pictures in The sky</h3>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/image5.jpg" alt="" class="card-img">
+                        <div class="card__content">
+                            <span class="card-tag">telescope 101</span>
+                            <h3 class="card__title">pictures in The sky</h3>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="images/image5.jpg" alt="" class="card-img">
+                        <div class="card__content">
+                            <span class="card-tag">telescope 101</span>
+                            <h3 class="card__title">pictures in The sky</h3>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="images/image5.jpg" alt="" class="card-img">
+                        <div class="card__content">
+                            <span class="card-tag">telescope 101</span>
+                            <h3 class="card__title">pictures in The sky</h3>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="feedback">
+            <div class="wrapper">
+                <div class="card-feedback-wrapper">
+                    <article class="feedback-card card-feed">
+                            <span class="pic-wrapper">
+                                 <i class="far fa-user"></i>
+                            </span>
+                        <p class="feedback-card__desc">Once the printer ink runs dry it has to be replaced with
+                            another inkjet cartridge. There are many reputed companies like Canon, Epson, Dell, and
+                            Lexmark that provide the necessary cartridges to replace the empty cartridges. Replacing
+                            inkjet</p>
+
+                        <h3 class="feedback-card__author">hunter valdez</h3>
+                        <span class="feedback-card__author-position">UI/UX designer</span>
+                    </article>
+
+                    <article class="feedback-card card-feed">
+                            <span class="pic-wrapper">
+                                 <i class="far fa-user"></i>
+                            </span>
+                        <p class="feedback-card__desc">It is truly a magnificent view even
+                            to the naked eye. If the night is clear, you can see amazing detail of the
+                            lunar surface just star gazing on in your back yard.</p>
+
+                        <h3 class="feedback-card__author">Allie Graham</h3>
+                        <span class="feedback-card__author-position">UI/UX designer</span>
+                    </article>
+
+                    <article class="feedback-card card-feed">
+                            <span class="pic-wrapper">
+                                 <i class="far fa-user"></i>
+                            </span>
+                        <p class="feedback-card__desc">There is a moment in the life of any aspiring astronomer that
+                            it is time to buy that first telescope. It’s exciting to think about setting up your own
+                            viewing station whether
+                            that is on the deck of your home or having.</p>
+                        <h3 class="feedback-card__author">tyler arnold</h3>
+                        <span class="feedback-card__author-position">UI/UX designer</span>
+                    </article>
+
+                </div>
+
+                <div class="tabed-sections">
+                    <span class="tabed-sections__item"></span>
+                    <span class="tabed-sections__item"></span>
+                    <span class="tabed-sections__item"></span>
+                    <span class="tabed-sections__item"></span>
+                    <span class="tabed-sections__item"></span>
+                </div>
+            </div>
+        </section>
+
+
     </section>
 
 
@@ -226,48 +213,49 @@
 <footer class="footer">
     <div class="wrapper">
         <div class="footer-wrapper">
-            <article class="footer-logo">
+            <div class="footer-logo">
                 <h2 class="footer__logo__title">
                     <a href="#" class="footer-logo__link"><img src="images/image.png" alt="" class="footer__logo__img">
                         sections</a>
                 </h2>
                 <small class="footer__copy-right">© Copyright 2018 Pixsellz - Premium UI Goods for Sketch App</small>
-            </article>
+            </div>
 
             <div class="categories">
-                <article class="category-article">
+                <div class="category-block">
                     <h3 class="category-title">category</h3>
                     <ul class="category-list">
-                        <li>choosing</li>
-                        <li>best audio</li>
-                        <li>software</li>
+
+                        <li><a href="#" class="category-list__link">choosing</a></li>
+                        <li><a href="#" class="category-list__link">best audio</a></li>
+                        <li><a href="#" class="category-list__link">software</a></li>
+                    </ul>
+                </div>
+
+                <article class="category-block">
+                    <h3 class="category-title">category</h3>
+                    <ul class="category-list">
+                        <li><a href="#" class="category-list__link">Home Audio</a></li>
+                        <li><a href="#" class="category-list__link">Recording</a></li>
+                        <li><a href="#" class="category-list__link">Everyone</a></li>
                     </ul>
                 </article>
 
-                <article class="category-article">
+                <article class="category-block">
                     <h3 class="category-title">category</h3>
                     <ul class="category-list">
-                        <li>Home Audio</li>
-                        <li>Recording</li>
-                        <li>Everyone</li>
+                        <li><a href="#" class="category-list__link">banks</a></li>
+                        <li><a href="#" class="category-list__link">accept</a></li>
+                        <li><a href="#" class="category-list__link">Players</a></li>
                     </ul>
                 </article>
 
-                <article class="category-article">
+                <article class="category-block">
                     <h3 class="category-title">category</h3>
                     <ul class="category-list">
-                        <li>banks</li>
-                        <li>accept</li>
-                        <li>Players</li>
-                    </ul>
-                </article>
-
-                <article class="category-article">
-                    <h3 class="category-title">category</h3>
-                    <ul class="category-list">
-                        <li>going</li>
-                        <li>wireless</li>
-                        <li>with your</li>
+                        <li><a href="#" class="category-list__link">going</a></li>
+                        <li><a href="#" class="category-list__link">wireless</a></li>
+                        <li><a href="#" class="category-list__link">with your</a></li>
                     </ul>
                 </article>
             </div>
