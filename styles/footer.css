@@ -95,7 +95,7 @@
         margin-left: 0;
         padding-top: 30px;
         padding-left: 30px;
-
+        padding-right: 30px;
     }
 
     .card-wrapper {
@@ -136,6 +136,7 @@
 
     .section__features {
         padding-left: 30px;
+        padding-right: 30px;
     }
 
     .footer {
