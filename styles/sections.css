@@ -18,6 +18,7 @@
     max-width: 811px;
     margin-top: 0;
     color: #141414;
+    text-shadow: 1px 1px 1px #ffffff9e;
 }
 
 .section__intro_link {
@@ -203,3 +204,4 @@
     width: 9px;
     height: 9px;
 }
+
